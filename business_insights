@@ -1,0 +1,8 @@
+Calculated Fields
+
+Profit Margin = SUM([Profit])/SUM([Sales])
+Cost = SUM([Sales])-SUM([Profit])
+Average Order Value = SUM([Sales])/COUNTD([Order Id])
+Return Rate = SUM([Return Flag]) / COUNTD([Order Id])
+Shipping Delay Bucket = DATEDIFF('day',[Order Date],[Ship Date])
+
