@@ -1,0 +1,46 @@
+Executive Dashboard Story
+
+## Executive Summary
+The dashboard provides a comprehensive overview of organizational sales performance, profitability, customer behaviour, regional performance, and product performance. Overall business performance is healthy, with total sales of 217.0M, total profit of 33.3M, and a profit margin of 15.35%.
+
+## What is Performing Well
+Sales remain relatively stable throughout the year with only moderate fluctuations, indicating consistent business performance.
+The South region is the strongest contributor to total sales, suggesting strong market demand and effective regional operations.
+Technology products generate significantly higher profits than other categories, making them the company's strongest revenue driver.
+Home Office customers contribute the highest overall sales, representing an important customer segment.
+
+## What is Underperforming
+Furniture produces comparatively low profit while also experiencing the highest return rate.
+Office Supplies contribute relatively low profitability despite representing a large product category.
+Higher discounts do not consistently translate into higher profits, reducing overall margins.
+
+## Risks Visible
+Furniture returns may increase operational costs and negatively impact customer satisfaction.
+Excessive discounting may continue to reduce profitability if not carefully managed.
+Heavy dependence on Technology profitability could expose the business to market changes within a single category.
+
+## Opportunities
+Expand Technology product offerings and promotional campaigns.
+Strengthen marketing activities in East and West regions to improve regional balance.
+Develop customer retention programs for Home Office customers.
+Improve product quality and logistics for Furniture products to reduce returns.
+
+## Recommended Business Actions
+- Increase investment in high-margin Technology products.
+- Review pricing and discount policies.
+- Improve Furniture quality control and delivery processes.
+- Expand successful regional strategies from South into other regions.
+- Introduce customer loyalty programs for high-value customer segments.
+
+## Limitations
+The dashboard is based on historical sales data and does not include forecasting.
+External economic factors, competitor activity, inventory availability, and customer demographics are not included.
+Campaign effectiveness is only partially represented.
+
+## Suggested Next Analysis
+- Sales forecasting using time series models.
+- Customer Lifetime Value (CLV) analysis.
+- Product-level profitability analysis.
+- Regional demand forecasting.
+- Marketing campaign ROI analysis.
+- Root-cause analysis of product returns.
