@@ -1,4 +1,4 @@
-Calculated Fields
+# Calculated Fields
 
 Profit Margin = SUM([Profit])/SUM([Sales])
 Cost = SUM([Sales])-SUM([Profit])
