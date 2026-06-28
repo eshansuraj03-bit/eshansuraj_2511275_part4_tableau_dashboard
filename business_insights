@@ -6,3 +6,85 @@ Average Order Value = SUM([Sales])/COUNTD([Order Id])
 Return Rate = SUM([Return Flag]) / COUNTD([Order Id])
 Shipping Delay Bucket = DATEDIFF('day',[Order Date],[Ship Date])
 
+# Business Insights
+
+1. Sales Trend
+Observation
+Sales remained relatively stable throughout the year with noticeable peaks in February and October.
+Data Evidence
+Monthly sales fluctuate between approximately 15M and 20M, with October showing the highest sales.
+Business Interpretation
+Demand remains consistent throughout the year, indicating stable customer purchasing behavior.
+Recommended Action
+Investigate marketing campaigns or seasonal factors that contributed to higher sales in February and October and replicate successful strategies.
+
+2. Regional Performance
+Observation
+The South region generated the highest sales, while East and West produced similar but lower sales.
+Data Evidence
+South recorded approximately 64.7M in sales compared to around 49M in both East and West.
+Business Interpretation
+The South region has the strongest customer base and market penetration.
+Recommended Action
+Continue investing in South while identifying growth opportunities in East and West through targeted promotions.
+
+3. Category Profitability
+Observation
+Technology is the most profitable product category by a significant margin.
+Data Evidence
+Technology generated over 28M profit compared with approximately 3.6M for Furniture and 1.7M for Office Supplies.
+Business Interpretation
+Technology products deliver substantially higher margins than other categories.
+Recommended Action
+Prioritize Technology products in marketing campaigns and inventory planning.
+
+
+4. Customer Segment Behaviour
+Observation
+Home Office customers generated the highest sales among all customer segments.
+Data Evidence
+Home Office sales exceeded 74M, followed by Consumer (71.9M) and Corporate (70.6M).
+Business Interpretation
+The Home Office segment represents a valuable customer group with strong purchasing power.
+Recommended Action
+Develop loyalty programs and customized offers for Home Office customers.
+
+5. Discount Impact
+Observation
+Higher discounts do not consistently increase profitability.
+Data Evidence
+The scatter plot shows several highly discounted transactions producing relatively low profits.
+Business Interpretation
+Aggressive discounting reduces margins without guaranteeing higher returns.
+Recommended Action
+Review discount policies and establish discount limits for low-margin products.
+
+6. Shipping and Delivery Performance
+Observation
+Different shipping modes contribute to varying delivery performance.
+Data Evidence
+Delivery days vary across shipping methods, indicating operational differences.
+Business Interpretation
+Shipping efficiency directly affects customer satisfaction and operational cost.
+Recommended Action
+Evaluate slower shipping methods and improve logistics efficiency.
+
+7. Return Pattern
+Observation
+Furniture has the highest return rate among all product categories.
+Data Evidence
+Furniture return rate is approximately 7.7%, compared with 3.7% for Office Supplies and 3.0% for Technology.
+Business Interpretation
+Furniture products may have quality, transportation, or customer expectation issues.
+Recommended Action
+Review product quality, packaging, and return reasons for Furniture products.
+
+8. Business Risk and Opportunity
+Observation
+Technology delivers the highest profitability while Furniture experiences the highest return rate.
+Data Evidence
+Technology contributes over 28M profit, whereas Furniture has the largest proportion of returned orders.
+Business Interpretation
+Technology represents the strongest growth opportunity, while Furniture presents operational risk.
+Recommended Action
+Increase investment in Technology products while reducing Furniture return rates through quality improvement initiatives.
