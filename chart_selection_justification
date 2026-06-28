@@ -1,25 +1,127 @@
-# Chart Selection Justification
+## Chart Selection Justification
 
-## Sales Trend
+1. Sales Trend
+Business Question
+How are sales changing over time?
 
-The Sales Trend visualization answers the business question, **"How are sales changing over time?"** A line chart was selected because it is the most effective chart type for displaying trends and seasonal variations across a continuous time period. The chart uses **Order Date (Month)** on the X-axis and **Sales** on the Y-axis, with filters available for **Region**, **Category**, and **Customer Segment** to allow users to explore different perspectives. The chart follows the design principle of chronological ordering with minimal clutter, making the sales pattern easy to interpret. A bar chart was intentionally avoided because it is less suitable for visualizing continuous trends over time.
+Chart Type
+Line Chart
 
-## Regional Performance
+Reason
+A line chart clearly displays monthly trends and seasonal fluctuations.
 
-The Regional Performance chart answers the question, **"Which region contributes the most sales?"** A vertical bar chart was chosen because it enables straightforward comparison of sales values across different regions. The visualization uses **Region** on the X-axis and **Sales** on the Y-axis, with colour intensity representing sales performance. The bars are arranged in descending order to make it easier for users to identify the best-performing regions quickly. A pie chart was avoided because it becomes difficult to compare regions with similar sales values accurately.
+Fields Used
+- X-axis: Order Date (Month)
+- Y-axis: Sales
+- Filter: Region, Category, Customer Segment
 
-## Category Profitability
+Design Principle
+Chronological ordering with minimal clutter.
 
-The Category Profitability visualization addresses the question, **"Which product categories generate the highest profit?"** A bar chart was selected because it provides a clear comparison of profitability across categories and sub-categories. The chart uses **Category/Sub-Category** on the X-axis and **Profit** on the Y-axis, while colours distinguish the product categories. Consistent colours and sorted values improve readability and help users identify the most profitable categories immediately. Stacked charts were avoided because they could hide individual category differences and make comparison more difficult.
+Mistake Avoided
+Did not use a bar chart, which is less effective for showing trends.
 
-## Customer Segment
+2. Regional Performance
+Business Question
+Which region contributes the most sales?
 
-The Customer Segment visualization answers the question, **"Which customer segment contributes the most sales?"** A treemap was selected because it effectively represents the proportional contribution of each customer segment within a limited dashboard space. The size of each rectangle represents **Sales**, while labels display the **Customer Segment**, and colour also reflects sales values. The design emphasizes the largest contributors without overwhelming the user with unnecessary labels or colours. Excessive colour variations and clutter were intentionally avoided to maintain readability.
+Chart Type
+Vertical Bar Chart
 
-## Discount vs Profit
+Reason
+Bar charts make comparisons across regions simple and accurate.
 
-The Discount vs Profit visualization answers the question, **"How does discount affect profitability?"** A scatter plot was chosen because it is the most appropriate chart type for examining the relationship between two continuous numerical variables. The chart uses **Discount** on the X-axis and **Profit** on the Y-axis, with each point representing an individual product or order. This design allows users to identify trends, clusters, and outliers while ensuring that individual observations remain visible. A line chart was avoided because discount values represent independent observations rather than a continuous sequence.
+Fields Used
+- X-axis: Region
+- Y-axis: Sales
+- Color: Sales intensity
 
-## Return Analysis
+Design Principle
+Descending sorting for quick comparison.
 
-The Return Analysis visualization answers the question, **"Which product categories have the highest return rate?"** A stacked bar chart was selected because it clearly compares return rates across product categories while also showing the contribution of different return statuses. The chart uses **Category** on the X-axis, **Return Rate** on the Y-axis, and colours to distinguish return status. Consistent colour coding improves interpretation and allows users to compare categories easily. Three-dimensional charts were intentionally avoided because they can distort values and reduce the accuracy of comparisons.
+Mistake Avoided
+Avoided pie charts because they make comparing similar values difficult.
+
+3. Category Profitability
+Business Question
+Which product categories generate the highest profit?
+
+Chart Type
+Bar Chart
+
+Reason
+Bar charts effectively compare profitability across categories and sub-categories.
+
+Fields Used
+- X-axis: Category/Sub-Category
+- Y-axis: Profit
+- Color: Category
+
+Design Principle
+Consistent colours and sorted values.
+
+Mistake Avoided
+Avoided stacked charts that would hide category differences.
+
+4. Customer Segment
+Business Question
+Which customer segment contributes the most sales?
+
+Chart Type
+Treemap
+
+Reason
+Treemaps efficiently display the relative contribution of each customer segment.
+
+Fields Used
+- Size: Sales
+- Label: Customer Segment
+- Color: Sales
+
+Design Principle
+Large blocks highlight the largest contributors.
+
+Mistake Avoided
+Avoided unnecessary labels and excessive colours.
+
+5. Discount vs Profit
+Business Question**
+How does discount affect profitability?
+
+Chart Type
+Scatter Plot
+
+Reason
+Scatter plots are the best option for showing relationships between two continuous variables.
+
+Fields Used
+- X-axis: Discount
+- Y-axis: Profit
+- Detail: Product or Order
+
+Design Principle
+Individual observations remain visible without overlap.
+
+Mistake Avoided
+Did not use a line chart because discounts are independent observations.
+
+6. Return Analysis
+Business Question
+Which product categories have the highest return rate?
+
+Chart Type
+Stacked Bar Chart
+
+Reason
+Bar charts clearly compare return rates across categories.
+
+Fields Used
+- X-axis: Category
+- Y-axis: Return Rate
+- Color: Return Status
+
+Design Principle
+Consistent colour coding and clear comparison.
+
+Mistake Avoided
+Avoided 3D charts that distort proportions.
