@@ -1,0 +1,140 @@
+# Chart Selection Justification
+
+## 1. Sales Trend
+
+**Business Question**
+How are sales changing over time?
+
+**Chart Type**
+Line Chart
+
+**Reason**
+A line chart clearly displays monthly trends and seasonal fluctuations.
+
+**Fields Used**
+- X-axis: Order Date (Month)
+- Y-axis: Sales
+- Filter: Region, Category, Customer Segment
+
+**Design Principle**
+Chronological ordering with minimal clutter.
+
+**Mistake Avoided**
+Did not use a bar chart, which is less effective for showing trends.
+
+---
+
+## 2. Regional Performance
+
+**Business Question**
+Which region contributes the most sales?
+
+**Chart Type**
+Vertical Bar Chart
+
+**Reason**
+Bar charts make comparisons across regions simple and accurate.
+
+**Fields Used**
+- X-axis: Region
+- Y-axis: Sales
+- Color: Sales intensity
+
+**Design Principle**
+Descending sorting for quick comparison.
+
+**Mistake Avoided**
+Avoided pie charts because they make comparing similar values difficult.
+
+---
+
+## 3. Category Profitability
+
+**Business Question**
+Which product categories generate the highest profit?
+
+**Chart Type**
+Bar Chart
+
+**Reason**
+Bar charts effectively compare profitability across categories and sub-categories.
+
+**Fields Used**
+- X-axis: Category/Sub-Category
+- Y-axis: Profit
+- Color: Category
+
+**Design Principle**
+Consistent colours and sorted values.
+
+**Mistake Avoided**
+Avoided stacked charts that would hide category differences.
+
+---
+
+## 4. Customer Segment
+
+**Business Question**
+Which customer segment contributes the most sales?
+
+**Chart Type**
+Treemap
+
+**Reason**
+Treemaps efficiently display the relative contribution of each customer segment.
+
+**Fields Used**
+- Size: Sales
+- Label: Customer Segment
+- Color: Sales
+
+**Design Principle**
+Large blocks highlight the largest contributors.
+
+**Mistake Avoided**
+Avoided unnecessary labels and excessive colours.
+
+---
+
+## 5. Discount vs Profit
+
+**Business Question**
+How does discount affect profitability?
+
+**Chart Type**
+Scatter Plot
+
+**Reason**
+Scatter plots are the best option for showing relationships between two continuous variables.
+
+**Fields Used**
+- X-axis: Discount
+- Y-axis: Profit
+- Detail: Product or Order
+
+**Design Principle**
+Individual observations remain visible without overlap.
+
+**Mistake Avoided**
+Did not use a line chart because discounts are independent observations.
+
+6. Return Analysis
+Business Question
+Which product categories have the highest return rate?
+
+Chart Type
+Stacked Bar Chart
+
+Reason
+Bar charts clearly compare return rates across categories.
+
+Fields Used
+- X-axis: Category
+- Y-axis: Return Rate
+- Color: Return Status
+
+Design Principle
+Consistent colour coding and clear comparison.
+
+Mistake Avoided
+Avoided 3D charts that distort proportions.
