@@ -1,6 +1,7 @@
 # Chart Selection Justification
 
 ## Sales Trend
+
 The Sales Trend visualization answers the business question, **"How are sales changing over time?"** A line chart was selected because it is the most effective chart type for displaying trends and seasonal variations across a continuous time period. The chart uses **Order Date (Month)** on the X-axis and **Sales** on the Y-axis, with filters available for **Region**, **Category**, and **Customer Segment** to allow users to explore different perspectives. The chart follows the design principle of chronological ordering with minimal clutter, making the sales pattern easy to interpret. A bar chart was intentionally avoided because it is less suitable for visualizing continuous trends over time.
 
 ## Regional Performance
